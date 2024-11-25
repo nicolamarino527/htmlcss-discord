@@ -199,8 +199,9 @@
     width: 300px;
     flex-basis: 24%;
     margin-top: 50px;
-    /* debug */
-    height: 500px;
+    margin-right: 50px;
+    padding-right: 40px;
+
 }
 .box-bottom-small {
     width: 300px;
@@ -213,7 +214,6 @@
     text-align: center;
     font-size: 30px;
     color: rgb(86, 118, 197);
-    margin-left: 30px;
 }
 .bottom-p {
     font-size: 15px;
@@ -231,8 +231,6 @@
     width: 300px;
     flex-basis: 70%;
     margin-top: 28px;
-    /* debug */
-    background-color: rgb(86, 118, 197);
     height: 70px;
 }
 .ul-bottom{
@@ -245,4 +243,24 @@
 }
 .color-purple {
     color: rgb(86, 118, 197);
+}
+#button-bottom {
+    border: 1px solid;
+    border-style: none;
+    margin-top: 13px;
+    height: 50px;
+    width: 90px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: rgb(86, 118, 197);
+}
+#ita {
+    height: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#italiano {
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
 }
