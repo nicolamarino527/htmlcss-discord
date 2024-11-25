@@ -58,7 +58,6 @@
     float: left;
 }
 #jumbo {
-    /* debug */
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -68,15 +67,15 @@
 #jumbo-title {
     color: #fff;
     padding-left: 26%;
-    font-size:35px;
+    font-size:40px;
 }
 #jumbo-text {
     color: #fff;
     margin-left: 15%;
     margin-right: 15%;
-    padding-top: 30px;
+    padding-top: 60px;
     font-size:15px;
-    line-height: 25px;
+    line-height: 30px;
 }
 #box-jumbo {
     width: 60%;
@@ -89,23 +88,33 @@
     border-radius: 30px;
     border-color: #fff;
     font-size: 15px;
+    margin-left: 29%;
+    margin-top: 20px;
     height: 40px;
-    width: 140px;
+    width: 160px;
 }
 #button-open {
     border: 1px solid;
     border-radius: 30px;
-    border-color: #fff;
+    border-color: rgb(35, 39, 42);
     font-size: 15px;
     height: 40px;
-    width: 190px;
+    width: 210px;
+    color: rgb(199, 203, 230);
+    background-color: rgb(35, 39, 42);
+    margin-left: 15px;
 }
-.container {
-    background-color: rgb(89, 89, 104);
+.container-w {
+    background-color: rgb(255, 255, 255);
     display: flex;
     /* debug */
-    border: 2px solid;
-    border-style: dotted;
+    justify-content: center;
+    height: 600px;
+}
+.container-g {
+    background-color: rgb(222, 222, 222);
+    display: flex;
+    /* debug */
     justify-content: center;
     height: 600px;
 }
@@ -114,9 +123,6 @@
     flex-basis: 45%;
     margin-top: 50px;
     /* debug */
-    background-color: rgb(86, 175, 197);
-    border: 2px solid;
-    border-style: dotted;
     height: 500px;
 }
 .box-small {
@@ -124,28 +130,76 @@
     width: 300px;
     flex-basis: 25%;
     /* debug */
-    background-color: rgb(69, 135, 152);
-    border: 2px solid;
-    border-style: dotted;
     height: 500px;
 }
+#container-big{
+    background-color: rgb(222, 222, 222);
+    display: flex;
+    justify-content: center;
+    /* debug */
+    height: 900px;
+}
+#container-big-box {
+    flex-basis: 60%;
+    margin-top: 50px;
+    /* debug */
+    height: 600px;
+}
+#big-title {
+    text-align: center;
+    font-size: 30px;
+}
+#big-title-bottom {
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+}
+#big-p {
+    margin-top: 30px;
+    font-size: 15px;
+}
+#button-big {
+    border: 1px solid;
+    border-radius: 30px;
+    border-color: #fff;
+    height: 50px;
+    width: 150px;
+    margin-left: 40%;
+    margin-top: 45px;
+    color: #fff;
+    font-size: 15px;
+    background-color: rgb(141, 162, 228);
+}
+.box-title {
+    font-size: 30px;
+    line-height: 40px;
+    font-style: "Whitney";
+    padding-top: 35px;
+}
+.box-p {
+    font-size: 20px;
+    line-height: 30px;
+    font-style: "Whitney";
+    margin-top: 30px;
+}
+
+/* footer */
+
+    /* box-5 */
 #container-bottom {
-    background-color: rgb(56, 54, 51);
+    background-color: rgb(35, 39, 42);
     display: flex;
     justify-content: center;
     /* debug */
     height: 600px;
-    border: 2px solid;
-    border-style: dotted;
 }
 .box-bottom-big {
     width: 300px;
     flex-basis: 24%;
     margin-top: 50px;
     /* debug */
-    background-color: rgb(86, 118, 197);
-    border: 2px solid;
-    border-style: dotted;
     height: 500px;
 }
 .box-bottom-small {
@@ -153,18 +207,24 @@
     flex-basis: 11.5%;
     margin-top: 50px;
     /* debug */
-    background-color: rgb(86, 197, 180);
-    border: 2px solid;
-    border-style: dotted;
     height: 500px;
 }
+#bottom-title {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(86, 118, 197);
+    margin-left: 30px;
+}
+.bottom-p {
+    font-size: 15px;
+    color: #fff;
+}
+/* box-6 */
 #container-end {
-    background-color: rgb(56, 54, 51);
+    background-color: rgb(35, 39, 42);
     display: flex;
     justify-content: center;
     /* debug */
-    border: 2px solid;
-    border-style: dotted;
     height: 100px;
 }
 #box-end{
@@ -172,8 +232,17 @@
     flex-basis: 70%;
     margin-top: 28px;
     /* debug */
-    background-color: rgb(125, 79, 185);
-    border: 2px solid;
-    border-style: dotted;
+    background-color: rgb(86, 118, 197);
     height: 70px;
+}
+.ul-bottom{
+   list-style: none;
+   padding-top: 13px;
+}
+.li-bottom{
+    margin-bottom: 15px;
+    color: #fff; 
+}
+.color-purple {
+    color: rgb(86, 118, 197);
 }
