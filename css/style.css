@@ -219,6 +219,11 @@
     font-size: 15px;
     color: #fff;
 }
+.icons {
+    padding-top: 30px;
+    padding-left: 30px;
+   
+}
 /* box-6 */
 #container-end {
     background-color: rgb(35, 39, 42);
@@ -243,6 +248,9 @@
 }
 .color-purple {
     color: rgb(86, 118, 197);
+}
+.white {
+    color: #fff;
 }
 #button-bottom {
     border: 1px solid;
