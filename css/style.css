@@ -27,7 +27,7 @@
     text-align: center;
     justify-content: center;
 }
-#box-header-list {
+.box-header-list {
     display: block;
     text-align: center;
     padding: 16px;
